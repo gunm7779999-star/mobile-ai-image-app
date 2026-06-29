@@ -1,11 +1,14 @@
 {
-  "name": "モバイルAI画像アプリ",
-  "short_name": "AI画像",
+  "name": "MIRA Image Lab",
+  "short_name": "MIRA",
+  "description": "スマホから使えるAI画像生成アプリ",
+  "lang": "ja",
+  "id": "./",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#070b16",
-  "theme_color": "#111827",
-  "icons": [
-    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml" }
-  ]
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
 }
