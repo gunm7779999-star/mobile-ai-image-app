@@ -1,16 +1,6 @@
-{
-  "name": "Mobile AI Image App",
-  "short_name": "AI Image",
-  "description": "スマホで使いやすいAI画像生成アプリ風MVP",
-  "start_url": "/mobile-ai-image-app/",
-  "display": "standalone",
-  "background_color": "#f8fafc",
-  "theme_color": "#111827",
-  "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
-}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+  <rect width="128" height="128" rx="30" fill="#070b16"/>
+  <circle cx="64" cy="64" r="42" fill="url(#g)"/>
+  <path d="M39 71c9-27 28-35 50-22-8 3-15 10-18 21-3 10-12 18-32 1Z" fill="white" opacity=".9"/>
+</svg>
